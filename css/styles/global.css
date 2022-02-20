@@ -115,13 +115,17 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     margin: 0 auto;
     width: 300px;
     pointer-events: none;
     opacity: 0;
     visibility: hidden;
-    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+         -o-transition-duration: 0.3s;
+            transition-duration: 0.3s;
     z-index: 9999;
 }
 .popup.is-active, .overlay.is-active {
@@ -130,14 +134,20 @@ body {
     visibility: visible;
 }
 .popup-order__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background: #F8F8F8;
     margin: 0 auto;
     padding: 66px 10px 27px;
     border-radius: 5px;
 }
 .send-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .popup-order__button {
@@ -171,10 +181,14 @@ body {
 }
 .send-container__button {
     display: block;
-    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+         -o-transition-duration: 0.3s;
+            transition-duration: 0.3s;
 }
 .send-container__button:hover {
-    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+            transform: translateY(-5px);
 }
 .overlay {
     opacity: 0;

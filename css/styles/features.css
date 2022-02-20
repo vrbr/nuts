@@ -75,7 +75,8 @@
     margin: 0 auto;
 }
 .features__button:hover {
-    box-shadow: 0px 2px 5px rgb(0 0 0 / 44%);
+    -webkit-box-shadow: 0px 2px 5px rgb(0 0 0 / 44%);
+            box-shadow: 0px 2px 5px rgb(0 0 0 / 44%);
 }
 
 @media (min-width: 768px) {
@@ -205,7 +206,7 @@
 }
 
 /*retina 320 start*/
-@media (min-resolution: 2dppx) {
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
     .features-main__wrapper::before {
         background-image: url("../../img/bg/main-bg@2x.jpg");
         width: 233px;
