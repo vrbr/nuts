@@ -43,7 +43,7 @@
     width: 48px;
     height: 311px;
 }
-@media (min-resolution: 2dppx) {
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
     .order__list::before {
         background-image: url("../../img/order-mob@2x.png");
         width: 48px;
@@ -122,7 +122,7 @@
         background-image: url("../../img/order-3@1x.png");
     }
 }
-@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), not all, not all, (min-width: 768px) and (min-resolution: 2dppx) {
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), not all, (min-width: 768px) and (-o-min-device-pixel-ratio: 2/1), (min-width: 768px) and (min-resolution: 2dppx) {
     .order__item-1::before {
         background-image: url("../../img/order-1@2x.png");
     }
