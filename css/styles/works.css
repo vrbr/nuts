@@ -1,0 +1,122 @@
+.works {
+    position: relative;
+}
+.anchor-works {
+    position: absolute;
+    top: -80px;
+}
+.works__wrapper {
+    padding-bottom: 25px;
+}
+.works__title {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.swiper-container.swiper-works {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    padding-bottom: 50px;
+}
+.works-slide img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.swiper-buttons {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 55px;
+    width: 132px;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    z-index: 0;
+}
+.swiper-button-prev, .swiper-button-next {
+    margin-top: -19px;
+    width: 40px;
+    height: 40px;
+    outline: none;
+}
+.swiper-button-prev {
+    left: -7px;
+}
+.swiper-button-next {
+    right: -5px;
+}
+.swiper-pagination {
+    padding-top: 10px;
+    width: 70px !important;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.swiper-pagination .swiper-pagination-bullet {
+    margin-right: 5px;
+    width: 9px;
+    height: 9px;
+    background: #DCDCDC;
+    outline: none;
+    opacity: 1;
+}
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #252323;
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    content: none;
+}
+
+@media (min-width: 768px) {
+    .works__wrapper {
+        padding: 12px 60px 35px;
+    }
+    .works__title {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .swiper-container.swiper-works {
+        height: 276px;
+        max-width: 680px;
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .works-slide img {
+        width: 320px;
+        height: 229px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .swiper-container.swiper-works {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .works__wrapper {
+        padding: 0 100px 30px;
+    }
+    .works__title {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .works {
+        max-width: 1460px;
+        margin: 0 auto;
+    }
+    .swiper-container.swiper-works {
+        max-width: 1260px;
+    }
+}
