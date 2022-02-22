@@ -366,7 +366,7 @@
     cursor: pointer;
 }
 .choice-footnote {
-    text-align: center;
+    padding-left: 20px;
     font-weight: 600;
     font-size: 9px;
     line-height: 11px;

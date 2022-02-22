@@ -12,10 +12,10 @@
 /* bg-start */
 .features-main__wrapper::before {
     background-image: url("../../img/bg/main-bg@1x.jpg");
-    width: 233px;
-    height: 252px;
-    left: calc(38% - 116px);
-    top: 56px;
+    width: 244px;
+    height: 264px;
+    left: calc(30% - 116px);
+    top: 53px;
 }
 .features-digital__wrapper::before {
     background-image: url("../../img/bg/digital-bg@1x.jpg");
@@ -209,8 +209,8 @@
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
     .features-main__wrapper::before {
         background-image: url("../../img/bg/main-bg@2x.jpg");
-        width: 233px;
-        height: 252px;
+        width: 244px;
+        height: 264px;
     }
     .features-digital__wrapper::before {
         background-image: url("../../img/bg/digital-bg@2x.jpg");

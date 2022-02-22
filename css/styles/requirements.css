@@ -1,5 +1,16 @@
 .requirements__wrapper {
-    padding: 10px 20px 20px;
+    position: relative;
+    padding: 10px 20px 50px;
+}
+.requirements__wrapper::after {
+    position: absolute;
+    content: "";
+    background-image: url("../../img/requirements-bg@1x.png");
+    background-size: cover;
+    width: 133px;
+    height: 49px;
+    bottom: 0px;
+    right: 20px;
 }
 .anchor-requirements {
     position: absolute;
@@ -113,15 +124,7 @@
     transition: all 0.25s ease-in-out;
 }
 .req-item__item {
-    /* position: relative; */
     padding-bottom: 12px;
-    /* max-height: 800px;
-    overflow: hidden;
-    opacity: 1;
-    -webkit-transform: translate( 0 , 0 );
-        -ms-transform: translate( 0 , 0 );
-            transform: translate( 0 , 0 );
-    z-index: 2; */
 }
 .req-item__item:first-of-type {
     padding-top: 10px;
@@ -130,9 +133,16 @@
     padding-bottom: 20px;
 }
 
+@media (-webkit-min-device-pixel-ratio: 2), not all, (min-resolution: 2dppx) {
+    .requirements__wrapper::after {
+        background-image: url("../../img/requirements-bg@2x.png");
+        width: 133px;
+        height: 49px;
+    }
+}
+
 @media (min-width: 768px) {
     .requirements__wrapper {
-        position: relative;
         padding-top: 35px;
         padding-left: 60px;
         max-width: 1070px;
@@ -140,9 +150,10 @@
     .requirements__wrapper::after {
         position: absolute;
         content: "";
-        background-image: url("../../img/requirements-tab-bg.svg");
-        width: 260px;
-        height: 84px;
+        background-image: url("../../img/requirements-tab-bg@1x.png");
+        background-size: cover;
+        width: 270px;
+        height: 94px;
         bottom: 30px;
         right: 63px;
     }
@@ -179,6 +190,14 @@
     }
 }
 
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), not all, not all, (min-width: 768px) and (min-resolution: 2dppx) {
+    .requirements__wrapper::after {
+        background-image: url("../../img/requirements-tab-bg@2x.png");
+        width: 270px;
+        height: 94px;
+    }
+}
+
 @media (min-width: 1200px) {
     .requirements__wrapper {
         padding: 55px 20px 60px 100px;
@@ -186,9 +205,9 @@
         margin: 0 auto;
     }
     .requirements__wrapper::after {
-        background-image: url("../../img/requirements-desk-bg.svg");
-        width: 321px;
-        height: 104px;
+        background-image: url("../../img/requirements-desk-bg@1x.png");
+        width: 331px;
+        height: 114px;
         bottom: 65px;
         right: 96px;
     }
@@ -203,5 +222,13 @@
     }
     .req-item__item:first-of-type {
         padding-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), not all, not all, (min-width: 1200px) and (min-resolution: 2dppx) {
+    .requirements__wrapper::after {
+        background-image: url("../../img/requirements-desk-bg@2x.png");
+        width: 331px;
+        height: 114px;
     }
 }
