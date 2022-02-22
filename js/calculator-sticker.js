@@ -124,6 +124,34 @@ choiceForm1.addEventListener('change', function(e) {
     if (document.getElementById('selectSize10').checked && document.getElementById('selectQuantity4').checked) {
         totalPrice1.textContent = '6250 грн';
     }
+    if (document.getElementById('selectSize11').checked && document.getElementById('selectQuantity1').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice1.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice1.textContent = 'Цену уточняйте';
+        }
+    }
+    if (document.getElementById('selectSize11').checked && document.getElementById('selectQuantity2').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice1.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice1.textContent = 'Цену уточняйте';
+        }
+    }
+    if (document.getElementById('selectSize11').checked && document.getElementById('selectQuantity3').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice1.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice1.textContent = 'Цену уточняйте';
+        }
+    }
+    if (document.getElementById('selectSize11').checked && document.getElementById('selectQuantity4').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice1.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice1.textContent = 'Цену уточняйте';
+        }
+    }
 });
 
 /*choiceForm2*/
@@ -252,6 +280,34 @@ choiceForm2.addEventListener('change', function(e) {
     if (document.getElementById('selectSize210').checked && document.getElementById('selectQuantity24').checked) {
         totalPrice2.textContent = '6250 грн';
     }
+    if (document.getElementById('selectSize211').checked && document.getElementById('selectQuantity21').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice2.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice2.textContent = 'Цену уточняйте';
+        }
+    }
+    if (document.getElementById('selectSize211').checked && document.getElementById('selectQuantity22').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice2.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice2.textContent = 'Цену уточняйте';
+        }
+    }
+    if (document.getElementById('selectSize211').checked && document.getElementById('selectQuantity23').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice2.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice1.textContent = 'Цену уточняйте';
+        }
+    }
+    if (document.getElementById('selectSize211').checked && document.getElementById('selectQuantity24').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice2.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice2.textContent = 'Цену уточняйте';
+        }
+    }
 });
 
 /*choiceForm3*/
@@ -379,6 +435,34 @@ choiceForm3.addEventListener('change', function(e) {
     }
     if (document.getElementById('selectSize310').checked && document.getElementById('selectQuantity34').checked) {
         totalPrice3.textContent = '6250 грн';
+    }
+    if (document.getElementById('selectSize311').checked && document.getElementById('selectQuantity31').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice3.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice3.textContent = 'Цену уточняйте';
+        }
+    }
+    if (document.getElementById('selectSize311').checked && document.getElementById('selectQuantity32').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice3.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice3.textContent = 'Цену уточняйте';
+        }
+    }
+    if (document.getElementById('selectSize311').checked && document.getElementById('selectQuantity33').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice3.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice3.textContent = 'Цену уточняйте';
+        }
+    }
+    if (document.getElementById('selectSize311').checked && document.getElementById('selectQuantity34').checked) {
+        if (choiceForm1.classList.contains('choiceForm1-ua')) {
+            totalPrice3.textContent = 'Ціну уточнюйте';
+        } else {
+            totalPrice3.textContent = 'Цену уточняйте';
+        }
     }
 });
 

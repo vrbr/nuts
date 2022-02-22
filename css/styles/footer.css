@@ -1,4 +1,5 @@
 .footer {
+    margin-top: -20px;
     background-image: url("../../img/footer-mask-mob.svg");
     background-repeat-y: no-repeat;
 }
@@ -42,6 +43,7 @@
 
 @media (min-width: 768px) {
     .footer {
+        margin-top: 0;
         background-image: url("../../img/footer-mask.svg");
     }
     .footer__wrapper {
