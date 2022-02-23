@@ -11,40 +11,68 @@
 }
 /* bg-start */
 .features-main__wrapper::before {
-    background-image: url("../../img/bg/main-bg.svg");
+    background-image: url("../../img/bg/main-bg@1x.png");
     width: 221px;
     height: 264px;
     left: calc(36% - 116px);
     top: 42px;
 }
 .features-digital__wrapper::before {
-    background-image: url("../../img/bg/digital-bg.svg");
+    background-image: url("../../img/bg/digital-bg@1x.png");
     width: 182px;
     height: 248px;
     left: calc(40% - 126px);
     top: 84px;
 }
 .features-souvenir__wrapper::before {
-    background-image: url("../../img/bg/souvenir-bg.svg");
+    background-image: url("../../img/bg/souvenir-bg@1x.png");
     width: 273px;
     height: 200px;
     left: calc(43% - 113px);
     top: 125px;
 }
 .features-widescreen__wrapper::before {
-    background-image: url("../../img/bg/widescreen-bg.svg");
+    background-image: url("../../img/bg/widescreen-bg@1x.png");
     width: 314px;
     height: 199px;
     left: calc(42% - 131px);
     top: 118px;
 }
 .features-sticker__wrapper::before {
-    background-image: url("../../img/bg/sticker-bg.svg");
+    background-image: url("../../img/bg/sticker-bg@1x.png");
     width: 251px;
     height: 246px;
     left: calc(40% - 128px);
     top: 85px;
 }
+@media (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), not all, (min-width: 320px) and (min-resolution: 2dppx) {
+    .features-main__wrapper::before {
+        background-image: url("../../img/bg/main-bg@2x.png");
+        width: 221px;
+        height: 264px;
+    }
+    .features-digital__wrapper::before {
+        background-image: url("../../img/bg/digital-bg@2x.png");
+        width: 182px;
+        height: 248px;
+    }
+    .features-souvenir__wrapper::before {
+        background-image: url("../../img/bg/souvenir-bg@2x.png");
+        width: 273px;
+        height: 200px;
+    }
+    .features-widescreen__wrapper::before {
+        background-image: url("../../img/bg/widescreen-bg@2x.png");
+        width: 314px;
+        height: 199px;
+    }
+    .features-sticker__wrapper::before {
+        background-image: url("../../img/bg/sticker-bg@2x.png");
+        width: 251px;
+        height: 246px;
+    }
+}
+
 /* bg-end */
 .features__title {
     margin-bottom: 157px;
@@ -82,7 +110,7 @@
     }
     /* bg-start */
     .features-main__wrapper::before {
-        background-image: url("../../img/bg/main-tab-bg.svg");
+        background-image: url("../../img/bg/main-tab-bg@1x.png");
         width: 332px;
         height: 287px;
         top: 100px;
@@ -93,22 +121,22 @@
         width: 240px;
         height: 328px;
         top: 106px;
-        right: 14px;
+        right: 31px;
         left: auto;
     }
     .features-souvenir__wrapper::before {
-        background-image: url("../../img/bg/souvenir-tab-bg.svg");
+        background-image: url("../../img/bg/souvenir-tab-bg@1x.png");
         width: 353px;
         height: 327px;
-        top: 134px;
-        right: 28px;
+        top: 120px;
+        right: 11px;
         left: auto;
     }
     .features-widescreen__wrapper::before {
-        background-image: url("../../img/bg/widescreen-tab-bg.svg");
+        background-image: url("../../img/bg/widescreen-tab-bg@1x.png");
         width: 413px;
         height: 222px;
-        top: 179px;
+        top: 187px;
         right: 0px;
         left: auto;
     }
@@ -137,6 +165,24 @@
     }
 }
 
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), not all, (min-width: 768px) and (min-resolution: 2dppx) {
+    .features-main__wrapper::before {
+        background-image: url("../../img/bg/main-tab-bg@2x.png");
+        width: 332px;
+        height: 287px;
+    }
+    .features-souvenir__wrapper::before {
+        background-image: url("../../img/bg/souvenir-tab-bg@2x.png");
+        width: 353px;
+        height: 327px;
+    }
+    .features-widescreen__wrapper::before {
+        background-image: url("../../img/bg/widescreen-tab-bg@2x.png");
+        width: 413px;
+        height: 222px;
+    }
+}
+
 @media (min-width: 1200px) {
     .features__wrapper {
         padding: 110px 100px 52px;
@@ -154,13 +200,13 @@
         width: 409px;
         height: 514px;
         top: 15px;
-        right: 42px;
+        right: 71px;
     }
     .features-souvenir__wrapper::before {
         width: 535px;
         height: 461px;
-        top: 133px;
-        right: 33px;
+        top: 87px;
+        right: 0;
     }
     .features-widescreen__wrapper::before {
         width: 659px;
