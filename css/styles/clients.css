@@ -24,6 +24,10 @@
     align-items: center;
     justify-items: center;
 }
+.zoloto {
+    width: 133px;
+    height: 62px;
+}
 
 @media (min-width: 600px) {
     .clients__shops {
