@@ -388,9 +388,6 @@
     .choice-slide {
         width: 226px;
     }
-    .wide-choice .choice-slide {
-        height: auto;
-    }
     .choice-slide.last-slide {
         margin-right: 100px;
     }
@@ -400,6 +397,9 @@
     .choice-slide__img-wrapper {
         width: 220px;
         height: 197px;
+    }
+    .souvenir-choice .choice-slide, .wide-choice .choice-slide {
+        height: 313px;
     }
     .wide-choice .choice-slide__select-size.size4,
     .wide-choice .choice-slide__select-size.size4 .choice-slide__select-size-content {
@@ -482,7 +482,8 @@
     .choice-slide {
         width: 306px;
     }
-    .souvenir-choice .choice-slide {
+    .souvenir-choice .choice-slide,
+    .wide-choice .choice-slide {
         height: auto;
     }
     .choice-slide.last-slide {
