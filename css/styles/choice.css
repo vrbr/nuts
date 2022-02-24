@@ -26,10 +26,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
     height: 292px;
+}
+.souvenir-choice .choice-slide form,
+.wide-choice .choice-slide form,
+.souvenir-choice .choice-slide h3,
+.wide-choice .choice-slide h3 {
+    margin-top: auto;
 }
 .choice-slide.last-slide {
     margin-right: 40px;
